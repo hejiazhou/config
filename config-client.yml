@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-client
+#  cloud:
+#    consul:
+#      host: localhost
+#      port: 8500
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
+server:
+  port: 2001
+
